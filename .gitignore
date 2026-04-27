@@ -1,0 +1,30 @@
+ini
+# --- Android Studio / IntelliJ ---
+.idea/
+*.iml
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+cmake-build-debug/
+
+# --- Build Outputs ---
+**/build/
+**/bin/
+**/gen/
+
+# --- Kotlin/Java ---
+*.class
+*.pyc
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Sensitive Info ---
+# (Uncomment the line below if you use a google-services.json for Firebase)
+# google-services.json
+
+# --- Log files ---
+*.log
